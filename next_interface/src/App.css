@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 90%;
+  height: auto;
+}
+
+.App-header {
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-container {
+  background: silver;
+  color: black;
+  text-align: center;
+  width: 50%;
+  border-radius: 12px;
+  padding: 3%;
+}
+
+.App-button {
+  display: block;
+  border: none;
+  padding: 2%;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.App-button:hover{
+  background: grey;
+  cursor: pointer;
+}
+
+.App-input {
+  position: relative;
+  background: silver;
+  border: none;
+  border-bottom: solid 1px black;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Label-container{
+  display: grid;
+  margin-top: 5%;
+  font-size: large;
+}
+
+.error{
+  font-size: large;
+  display: none;
+  color: darkred;
+  margin-top: 5%;
+  margin: auto;
+}
+
